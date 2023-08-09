@@ -1,0 +1,722 @@
+
+/*--------------------------------- 
+    (max-width: 1399px) 
+----------------------------------*/
+
+@media only screen and (max-width:1399px){
+    .text_black{
+        margin:10px 20px;
+        font-size:14px
+    }
+    ul.navbar-nav.bg_light:before {
+        border-top: 3.55em solid transparent;
+    }
+    .btn_header{
+        width:220px;
+        height:57px
+    }
+    .book_btn:before{
+        border-top:3.6em solid #fc3346;
+    }
+    .banner_date{
+        left:26px;
+        right:26px;
+        padding: 46px 30px 26px; 
+    }
+    .subs_heading{
+        padding-top:50px;
+    }
+    .contact_info{
+        margin-top:4px;
+    }
+}
+
+
+/*--------------------------------- 
+    (max-width: 1199px) 
+----------------------------------*/
+
+@media only screen and (max-width:1199px){
+    .text_black{
+        margin: 8px 12px;
+        font-size:13px
+    }
+    .heading_s1{
+        font-size:70px
+    }
+    .leads{
+        font-size:26px;
+    }
+    .dropdown-menu{
+        top:48px;
+    }
+    ul.navbar-nav.bg_light:before {
+        border-top: 3.2em solid transparent;
+    }
+    .book_btn button{
+        font-size:16px  
+    }
+    .book_btn:before{
+        border-top:3.2em solid #fc3346;
+    }
+    .btn_header{
+        width:180px;
+        height:50px;
+    }
+    .btn_banner{
+        width:200px;
+        height:48px;
+        font-size:16px;
+    }
+    .bdy_date{
+        width:100%
+    }
+    .bdy_label{
+        padding-top:16px;;
+    }
+    .fa-calendar-alt{
+        top:58px
+    }
+    .fa-user{
+        top:60px;
+    }
+    .button{
+        margin:0 auto;
+        display:block;
+        width:180px;
+        height:46px;
+    }
+    .banner_date{
+        padding:40px 0px;
+    }
+    .heading_s2{
+        font-size:40px
+    }
+    .tetto-img{
+        margin: 24px 0px;
+    }
+    .leads_p{
+        font-size:16px;
+        line-height:24px
+    }
+    .sub_heading{
+        margin: 62px 0px;
+    }
+    .subs_heading{
+        padding-top: 50px;
+    }
+    .btn02 button{
+        font-size:22px;
+        margin: 44px auto;
+    }
+    .Hotel_img img{
+        height: 300px;
+    }
+    .protfolio_img{
+        height: 280px;
+    }
+    .grid, .grid >.column1{
+        padding:10px
+    }
+    .event_img{
+        height:280px
+    }
+    .date_heading{
+        font-size: 32px;
+    }
+    .date_leads{
+        font-size:18px;
+        margin: 11px 20px;
+        line-height: 22px;
+    }
+    .box_shadow{
+        margin-bottom: 60px;
+    }
+    .border_right{
+        margin-right: 0px;
+    }
+    .footer_heading{
+        font-size:24px
+    }
+    .widget_links li a{
+        font-size:16px;
+        line-height:30px
+    }
+    .footer_p{
+        font-size:16px;
+        word-spacing: 0px;
+    }
+    .outline_input{
+        height:40px
+    }
+    .footer_btn{
+        height: 40px;
+        font-size: 16px;
+    }
+    .social_icons li a i{
+        font-size:16px;
+        width:36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .top_footer{
+        padding:60px 0px
+    }
+}
+
+/*--------------------------------- 
+    (max-width: 992px) 
+----------------------------------*/
+@media only screen and (max-width:991px){
+    .text_black{
+        font-size:16px
+    }
+    .banner_img{
+        width:100%;
+        height: 800px;
+    }
+    ul.navbar-nav.bg_light:before{
+        display:none
+    }
+    .btn_header{
+        width:190px;
+        height:46px;
+    }
+    .book_btn:before{
+        display:none
+    }
+    .book_btn button{
+        font-size:16px;
+        position: absolute;
+        right:15px
+    }
+    .heading_s1{
+        font-size: 66px;
+    }
+    .leads{
+        font-size:22px  
+    }
+    .leads:before{
+        width: 60px;
+    }
+    .span_leads:before{
+        width:60px;
+    }
+    .leads:after{
+        width: 60px;
+   }
+    .span_leads:after{
+        width:60px;
+    }
+    .btn_banner {
+        font-size: 16px;
+        width: 200px;
+        height:50px;
+    }
+    .btn_banner span:after {
+        top: 0px;
+        right: -30px;
+        font-size:20px !important;
+    }
+    .banner_date{
+        padding: 38px 0px;
+        bottom:-120px;
+    }
+    .subs_heading{
+        padding-top:94px
+    }
+    .bdy_label{
+        padding-top:14px;
+    }
+    .fa-calendar-alt{
+        top:60px;
+        right:24px;
+        font-size:20px;
+    }
+    .bdy_date{
+        width:100%
+    }
+    .fa-user{
+        top:58px;
+    }
+    .button{
+        display:block;
+        margin:0 auto;
+        width:180px;
+        height:40px;
+    }
+    .sub_heading{
+        margin:60px 0px;
+    }
+    .heading_s2{
+        font-size: 38px;
+    }
+    .leads_p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .hotel_img{
+        display:block;
+        margin:0 auto;
+        max-width:420px;
+    }
+    .hotel_image{
+        padding-top:20px;
+    }
+    .btn02 button{
+        margin:40px auto;
+        font-size: 20px;
+    }
+    .box_shadow{
+        margin:10px auto;
+        max-width:500px;
+    }
+    .date_leads{
+        font-size:16px;
+        margin: 28px 16px;
+        line-height: 20px;
+    }
+    .tetto_img{
+        margin-top:22px;
+    }
+    .footer_heading{
+        font-size:26px
+    }
+    .widget_links li a{
+        font-size:16px
+    }
+    .footer_p{
+        font-size: 16px;
+    }
+    .top_footer{
+        padding:50px 0px
+    }
+    .pattern_top .border_right{
+        border-right: 0px;
+        padding-bottom: 14px;
+    }
+    
+}   
+
+/*--------------------------------- 
+    (max-width: 768px) 
+----------------------------------*/
+
+
+@media only screen and (max-width:767px) {
+    .logo_img{
+        max-width:100%;
+    }
+    ul.navbar-nav.bg_light:before{
+        display:none
+    }
+    .btn_header{
+        width:180px;
+        height:42px;
+    }
+    .text_black{
+        margin: 6px 14px;
+        font-size: 14px;
+    }
+    .book_btn:before{
+        display:none
+    }
+    .book_btn button{
+        font-size: 16px;
+        position: absolute;
+        right:15px
+    }
+    .icon_slider i{
+        height:50px;
+        width:50px;
+        padding-top: 18px;
+        font-size: 16px;
+    }
+    .heading_s1{
+        font-size: 50px;
+    }
+    .leads{
+        font-size:20px  
+    }
+    .leads:before{
+        width: 50px;
+    }
+    .span_leads:before{
+        width:50px;
+    }
+    .leads:after{
+         width: 50px;
+    }
+    .span_leads:after{
+        width:50px;
+    }
+    .btn_banner{
+        width: 180px;
+        height:46px;
+        font-size:16px
+    }
+    .btn_banner span:after {
+        top: 1px;
+        right: -20px;
+        font-size:30px;
+    }
+    .banner_date{
+        padding: 36px 0px;
+    }
+    .form-input{
+        width:50%
+    }
+    .bdy_date{
+        width:100%
+    }
+    .fa-user{
+        top:54px;
+        left:46%;
+    }
+    label{
+        font-size: 16px;
+    }
+    .fa-calendar-alt{
+        top:52px;
+        right:30px;
+        font-size:20px;
+    }
+    .button{
+        display:block;
+        margin:0 auto;
+        width:120px;
+        height: 36px;
+        font-size:14px 
+    }
+    .bdy_label{
+        padding-top:12px
+    }
+    .sub_heading{
+        margin:52px 0px;
+    }
+    .btn01 button{
+        margin-top: 26px;
+    }
+    .tetto-img{
+        margin:24px 0px;
+    }
+    .heading_s2{
+        font-size: 40px;
+    }
+    .leads_p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .Hotel_img {
+        max-width: 500px;
+        display:block;
+        margin:5 auto;
+    }
+    .Hotel_img:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    .Hotel_img img{
+        width:100%;
+        height:300px;
+    }
+    .hotel_image{
+        padding-top:0px;
+    }
+    .btn02 button{
+        margin:50px auto;
+        font-size: 18px;
+        display:block
+    }
+    .protfolio_img{
+        height: 280px;
+    }
+    .overlay_bg{
+        height:280px;
+      }
+    .box_shadow{
+        margin:0 auto;
+        max-width:500px;
+    }
+    .date_heading{
+        font-size:30px
+    }
+    .date_leads{
+        font-size: 18px;
+        line-height:20px;
+        margin:28px 10px
+    }
+    .event_img{
+        height: 300px;
+    }
+    .tetto_img{
+        margin-top:20px;
+    }
+    .box_shadow{
+        margin-bottom: 20px;
+    }
+    .footer_heading{
+        font-size:26px
+    }
+    .widget_links li a{
+        font-size:16px
+    }
+    .footer_p{
+        font-size:16px;
+    }
+    .top_footer{
+        padding:40px 0px
+    }
+    .outline_input{
+        height:46px
+    }
+    .footer_btn{
+        width:100px;
+        height:46px;
+        font-size:16px;
+    }
+    .footer_bottom{
+        padding-bottom: 30px;
+    }
+    .pattern_top .border_right{
+        border-right: 0px;
+        padding-bottom: 16px;
+    }
+    .column1{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+/*--------------------------------- 
+    (max-width: 576px) 
+----------------------------------*/
+
+@media only screen and (max-width: 575px) {
+    .logo_img{
+        max-width:100%;
+        margin: 10px 0px; 
+    }
+    .header_icon{
+        margin:10px 0px;
+        text-align: left;
+    }
+    ul.navbar-nav.bg_light:before{
+        display:none
+    }
+    .book_btn:before{
+        display:none
+    }
+    .btn-header{
+        width:160px;
+        height:32px;
+        font-size: 12px;
+    }
+    .iconheader i{
+        margin-right:0px;
+    }
+    .icon_header i{
+        padding-left:0px !important;
+    }
+    .text_black{
+        margin: 4px 12px;
+        font-size: 14px;
+    }
+    .dropdown-menu{
+        font-size:14px
+    }
+    .book_btn button{
+        font-size: 14px;
+        position: absolute;
+        right:15px
+    }
+    .btn_header{
+        width:120px;
+        height:36px;
+    }
+    .banner_img{
+        width:100%;
+        height: 600px;
+    }
+    .icon_slider i{
+        height:40px;
+        width:40px;
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    .heading_s1{
+        font-size: 40px;
+    }
+    .leads{
+        font-size:16px  
+    }
+    .leads:before{
+        display: none;
+    }
+    .span_leads:before{
+      display:none
+    }
+    .leads:after{
+        display:none
+   }
+    .span_leads:after{
+        display:none
+    }
+    .btn_banner{
+        width: 180px;
+        height:40px;
+        font-size:14px
+    }
+    .btn_banner span:after {
+        top: 0px;
+        right: -20px;
+        font-size:20px;
+    }
+    .form_guests{
+        margin-top: 10px;
+    }
+    .fa-info-circle{
+        padding-left:6px;
+    }
+    .bdy_date{
+        width:100%
+    }
+    .bdy_label{
+        padding-top:10px
+    }
+    .select_label{
+        padding-top: 10px;
+    }
+    .form-input{
+        width:100%
+    }
+    label{
+        font-size: 14px;
+    }
+    .fa-user{
+        top: 46px;
+        left:88%;
+    }
+    .fa-calendar-alt{
+        top:46px;
+        right:26px;
+        font-size:18px;
+    }
+    .button{
+        display:block;
+        margin:0 auto;
+        width:120px;
+        height: 36px;
+        font-size:14px
+    }
+    .form-control{
+        height: 34px;
+    }
+    .banner_date{
+        padding: 30px 0px;
+        bottom: -312px;
+    }
+    .bdy_date{
+        height:34px;
+    }
+    .btn01 button{
+        margin-top: 20px;
+    }
+    .sub_heading{
+        margin:46px 0;
+    }
+    .subs_heading{
+        padding-top: 290px;
+    }
+    .heading_s2{
+        font-size: 30px;
+    }
+    .tetto-img{
+        margin:20px 0px;
+    }
+    .leads_p{
+        max-width:822px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .Hotel_img img{
+        width:100%;
+        height:260px;
+    }
+    .btn02 button{
+        margin:44px auto;
+        font-size: 14px;
+    }
+    .grid,
+    .grid > .column1 {
+        padding:10px;
+    }
+    .btn-protfolio{
+        width:100%;
+    }
+    .column1 {
+        width:100%;
+    }
+    /* .overlay_bg{
+       height:280px;
+     } */
+    .blog_content{
+        padding:6px;
+        width: 72px;
+        height:72px;
+    }
+    .date_heading{
+        font-size:28px;
+    }
+    .date_leads{
+        font-size: 16px;
+        margin:8px 10px;
+        line-height:18px;
+    }
+    .box_shadow{
+        margin-bottom: 15px;
+    }
+    .tetto_img{
+        margin-top: 16px;
+    }
+    .footer_heading{
+        font-size:22px
+    }
+    .footer_p{
+        font-size:14px;
+    }
+    .social_icons li a i{
+        font-size: 16px;
+        height:30px;
+        width:30px;
+        line-height: 30px;
+        border-radius: 30px;
+    }
+    .outline_input{
+        width:100%;
+        height:40px
+    }
+    .footer_btn{
+        height:40px;
+        font-size:14px;
+    }
+    .widget_links li a{
+        font-size:16px
+    }
+    .top_footer{
+        padding:44px 0px;
+    }
+    .footer_bottom{
+        padding-bottom: 24px;
+    }
+    .pattern_top .border_right{
+        border-right: 0px;
+        padding-bottom: 14px;
+    }
+    .mt-4{
+        margin-top: 10px;
+    }
+    .leads:before{
+        margin-left: 0px;
+    }
+}

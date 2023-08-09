@@ -1,0 +1,615 @@
+        <html>
+<head>
+    <meta charset="utf-8">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://www.dafontfree.net/embed/c25lbGwtYmQtYnQtYm9sZCZkYXRhLzI3L3MvMTQzMjg0L1NuZWxsQm9sZEJULnR0Zg" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+<!-- START HEADER -->
+
+<header class="header_wrap transparent_header">
+    <div class="bg_offblack"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-4">
+                <img src="img/logo.png" class="logo_img">               
+                </div>
+                
+                <div class="col-md-6 col-8 header_icon">
+                    <div class="d-inline-block iconHeader">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-product-hunt"></i>
+                        <i class="fab fa-glide-g"></i>
+                    </div>
+
+                    <div class="d-inline-block ">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="d-flex mt-3">
+    
+            <nav class="navbar navbar-expand-lg navbar-light">
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav bg_light">
+                        <li class="nav-item active">
+                            <a class="nav-link text_black" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ABOUT US </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ROOMS </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> SERVICES </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> GALLERY </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> BLOG </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text_black" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> CONTACT </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="book_btn">
+            <button class="btn btn_header btn-lg">BOOK NOW</button>
+        </div>
+    </div>
+    </div>
+</header>
+
+<!-- END HEADER -->
+
+<!-- Modal -->
+   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg_lightred">
+        <div class="modal-header">
+          <h5 class="modal-title text_light" id="exampleModalLongTitle">Login</h5>
+          <button type="button" class="close text_light" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <label class="text_light">UserName</label>
+            <input type="email" class="form-control">
+            
+            <label for="exampleInputPassword1" class="mt-3 text_light">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input text_light" id="exampleCheck1">
+                <label class="form-check-label text_light" for="exampleCheck1">Check me out</label>
+            </div>
+
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary text_light" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END MODEL -->
+
+
+
+
+<!-- START SECTION BANNER -->
+
+
+<div class="position-relative">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block banner_img" src="img/banner.png" alt="First slide">
+            <div class="carousel-caption container">
+                <div class="line"></div>
+                <h1 class="heading_s1">Welcome to Hotely</h1>
+                <p class="leads"><span class="span_leads">THE PLACE WHERE YOU LOOKING TO</span></p>
+                <button class="btn btn-lg btn_banner"><span>EXPLORE NOW</span></button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block banner_img" src="img/banner.png" alt="Second slide">
+            <div class="carousel-caption container">
+                <h1 class="heading_s1">Welcome to Hotely</h1>
+                <p class="leads"><span class="span_leads">THE PLACE WHERE YOU LOOKING TO</span></p>
+                <button class="btn btn-lg btn_banner"><span>EXPLORE NOW</span></button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block banner_img" src="img/banner.png" alt="Third slide">
+            <div class="carousel-caption container">
+                <h1 class="heading_s1">Welcome to Hotely</h1>
+                <p class="leads"><span class="span_leads">THE PLACE WHERE YOU LOOKING TO</span></p>
+                <button class="btn btn-lg btn_banner"><span>EXPLORE NOW</span></button>
+            </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev icon_slider" href="#carouselExampleControls" role="button" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next icon_slider" href="#carouselExampleControls" role="button" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+  
+   
+
+</div>
+
+<!-- END SECTION BANNER -->
+
+<!-- START WELCOME TO HOTEL -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="sub_heading subs_heading">
+                    <h2 class="heading_s2">WELCOME TO HOTEL</h2>
+                    <img src="img/tettoo.png" alt="tetto_img" class="tetto-img">    
+                    <p class="leads_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type electronic </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 gutters_sm">
+                <div class="Hotel_img">
+                   <img src="img/bedroom.png" alt="bedroom_img">
+                   <div class="overlay">
+                      
+                   </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 gutters_sm">
+                <div class="Hotel_img">
+                    <img src="img/bedroom_1.png" alt="bedroom_img">
+                    <div class="overlay">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 gutters_sm">
+                <div class="Hotel_img hotel_img">
+                    <img src="img/lifgtbedroom.png" alt="bedroom_img" class="hotel_image">
+                    <div class="overlay">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 btn02">
+                <button class="btn btn_header btn-lg">View All</button>
+            </div>
+        </div>
+    </div>
+<!-- END WELCOME TO HOTEL -->
+
+<!-- START PROTFOLIO -->
+
+<div class="bg_black">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="sub_heading mb-0">
+                    <h2 class="heading_s2 text-light">WHY TO CHOOSE US?</h2>
+                    <img src="img/tetto.png" alt="tetto_img" class="tetto-img">    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">    
+        <div id="myBtnContainer" class="text-center">
+            <button class="btn-protfolio active1" onclick="filterSelection('all')">ALL</button>
+            <button class="btn-protfolio" onclick="filterSelection('desert')">DESERT</button>
+            <button class="btn-protfolio" onclick="filterSelection('coffee')"> COFFEE</button>
+            <button class="btn-protfolio" onclick="filterSelection('catering')">CATERING</button>
+            <button class="btn-protfolio" onclick="filterSelection('people')">SERVICES</button>
+        </div>
+
+        <div class="row grid">
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 catering">
+                <div class="content">
+                    <img src="img/food.png" alt="Mountains" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <a href="img/food.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 catering">
+                <div class="content">
+                    <img src="img/food2.png" alt="Lights" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <div class="link_container">
+                            <a href="img/food2.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 desert">
+                <div class="content">
+                    <img src="img/resort.png" alt="Nature" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <a href="img/resort.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                        <!-- <a class="image-link" href="img/food2.png"><i class="fab fa-glide-g"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 catering">
+                <div class="content">
+                    <img src="img/food3.png" alt="Car" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <a href="img/food3.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 coffee">
+                <div class="content">
+                    <img src="img/food4.png" alt="Car" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <a href="img/food4.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column1 col-lg-4 col-md-6 col-sm-12 desert">
+                <div class="content">
+                    <img src="img/resort2.png" alt="Car" class="protfolio_img">
+                    <div class="overlay_bg">
+                        <a href="img/resort2.png" class="image-link"><i class="fas fa-plus-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 btn02">
+                <button class="btn btn_header btn-lg">View All</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- END PROTFOLIO -->
+
+
+
+
+<!--START EVENT PHOTO -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="sub_heading">
+                <p class="leads p-0 m-0 lead_event">Upcomming</p>
+                <h2 class="heading_s2 event_heading mb-0">Events</h2>
+                <img src="img/tettoo.png" alt="tetto_img" class="tetto_img">    
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 gutters_sm">
+            <div class="box_shadow">
+                <div class="gallery-item">
+                    <img src="img/soffa.png" alt="soffa_img" class="event_img">
+                </div>
+                <div class="d-flex">
+                    <div class="blog_content">
+                           <h3 class="date_heading">25</h3>
+                           <p class="p-0 m-0 date_leads">APRIL</p>
+                    </div>
+                    <p class="date_leads">Lorem Ipsum is simply dummy<br>
+                        text of the printing and..</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 gutters_sm">
+            <div class="box_shadow">
+                <div class="gallery-item">
+                    <img src="img/event.png" alt="event_img" class="event_img">
+                </div>
+                <div class="d-flex">
+                    <div class="blog_content">
+                           <h3 class="date_heading">22</h3>
+                           <p class="p-0 m-0 date_leads">JUNE</p>
+                    </div>
+                    <p class="date_leads">Lorem Ipsum is simply dummy<br>
+                        text of the printing and..</p>
+                </div>    
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 gutters_sm">
+            <div class="box_shadow">
+                <div class="gallery-item">
+                    <img src="img/light.png" alt="light_img" class="event_img">
+                </div>
+                <div class="d-flex">
+                    <div class="blog_content">
+                           <h3 class="date_heading">15</h3>
+                           <p class="p-0 m-0 date_leads">MAY</p>
+                    </div>
+                    <p class="date_leads">Lorem Ipsum is simply dummy<br>
+                        text of the printing and..</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- END EVENT PHOTO -->
+
+
+<!-- START FOOTER -->
+
+<footer class="pattern_top">
+    <div class="top_footer">
+        <div class="container">
+            <div class="row text-light">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="border_right">
+                        <h4 class="footer_heading">ADDRESS</h4>
+                        <ul class="contact_info">
+                            <li class="footer">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <address>Hotel in Jaipur</address>
+                            </li>
+                            <li class="footer">
+                                <i class="fas fa-phone-alt"></i>
+                                <p>50123456789</p>
+                            </li>
+                            <li class="footer">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:hotel@gmail.com">hotel@gmail.com</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="border_right">
+                        <h4 class="footer_heading">INFORMATION</h4>
+                        <ul class="widget_links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="border_right">
+                        <h4 class="footer_heading">MY ACCOUNT</h4>
+                        <ul class="widget_links">
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wish List</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <h4 class="footer_heading">NEWS LETTER</h4>
+                    <p class="footer_p">Subscribe to our newsletter to latest<br> news, tips, and advice.</p>
+                    <div class="d-flex">
+                        <input type="text" class="outline_input">
+                        <button class="footer_btn">SEND</button>
+                    </div>
+                    <ul class="social_icons social_icon">
+                        <li><a href="#" class="sc_facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="sc_twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="sc_glide"><i class="fab fa-glide-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 footer_bottom">
+                 <p class="leads_p">© 2018 . Hotel. All rights .</p>
+            </div>
+        </div>
+    </div>
+    
+
+</footer>
+
+
+<a href="#" id="scrollup" style="display:none;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column1");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn-protfolio");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active1");
+        current[0].className = current[0].className.replace(" active1", "");
+        this.className += " active1";
+      });
+    }
+</script>
+
+<script>
+    $(document).ready(function(){ 
+        $(window).scroll(function(){ 
+            if ($(this).scrollTop() > 100) { 
+                $('#scrollup').fadeIn(); 
+            } else { 
+                $('#scrollup').fadeOut(); 
+            } 
+        }); 
+        $('#scrollup').click(function(){ 
+            $("html, body").animate({ scrollTop: 0 }, 1700); 
+            return false; 
+        }); 
+    });
+</script>
+
+
+
+<script type="text/javascript">
+    $('#datepicker').datepicker({
+        weekStart: 1,
+        daysOfWeekHighlighted: "6,0",
+        autoclose: true,
+        todayHighlight: true,
+    });
+    $('#datepicker').datepicker("setDate", new Date());
+
+
+    $('#datepicker1').datepicker({
+        weekStart: 1,
+        daysOfWeekHighlighted: "6,0",
+        autoclose: true,
+        todayHighlight: true,
+    });
+    $('#datepicker1').datepicker("setDate", new Date());
+
+</script>
+
+<script>
+     $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+    });
+
+</script>
+
+</body>    
+</htm>
